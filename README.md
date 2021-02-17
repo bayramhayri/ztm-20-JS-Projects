@@ -10,3 +10,4 @@ This repo is for the 20 JS projects from ["JavaScript Web Projects: 20 Projects 
 | 04  | [Joke Teller](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/04-joke-teller/)   | [Live Demo](https://pedantic-volhard-3e8612.netlify.app/)    |
 | 05  | [Light & Dark Mode](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/05-light-dark-mode/)   | [Live Demo](https://vigilant-wilson-311cf1.netlify.app/)    |
 | 06  | [Animated Template](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/06-animated-template/)   | [Live Demo](https://dreamy-shockley-f05261.netlify.app/)    |
+| 07  | [Animated Navigation](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/07-animated-navigation/)   | [Live Demo](https://quizzical-fermat-8d6fbc.netlify.app/)    |
