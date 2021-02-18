@@ -11,3 +11,4 @@ This repo is for the 20 JS projects from ["JavaScript Web Projects: 20 Projects 
 | 05  | [Light & Dark Mode](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/05-light-dark-mode/)   | [Live Demo](https://vigilant-wilson-311cf1.netlify.app/)    |
 | 06  | [Animated Template](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/06-animated-template/)   | [Live Demo](https://dreamy-shockley-f05261.netlify.app/)    |
 | 07  | [Animated Navigation](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/07-animated-navigation/)   | [Live Demo](https://quizzical-fermat-8d6fbc.netlify.app/)    |
+| 08  | [Music Player](https://github.com/bayramhayri/ztm-20-JS-Projects/tree/master/08-music-player)   | [Live Demo](https://stupefied-jang-3da454.netlify.app/)    |
