@@ -20,31 +20,20 @@ function hideLoadingSpinner() {
 // Get Quote from API
 async function getQuote() {
   showLoadingSpinner();
-  const URL =
-    'https://type.fit/api/quotes/?method=getQuote&lang=en&format=json';
+  const URL = 'http://quotes.stormconsultancy.co.uk/random.json';
   try {
     const res = await fetch(URL);
     const data = await res.json();
-    const num = Math.floor(Math.random() * data.length);
-    let quote;
-
-    // Check if author is null, and replace it with 'Unknown'
-    if (data[num].author === null) {
-      quote = data[num];
-      quote.author = 'Unknown';
-    } else {
-      quote = data[num];
-    }
 
     // If quote is too long, reduce font size
-    if (quote.text.length > 120) {
+    if (data.quote.length > 120) {
       quoteText.classList.add('long-quote');
     } else {
       quoteText.classList.remove('long-quote');
     }
 
-    quoteAuthor.innerText = quote.author;
-    quoteText.innerText = quote.text;
+    quoteAuthor.innerText = data.author;
+    quoteText.innerText = data.quote;
     hideLoadingSpinner();
   } catch (err) {
     if (errorCount < 10) {

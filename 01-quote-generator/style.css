@@ -50,6 +50,15 @@ body {
   letter-spacing: 0.022em;
 }
 
+.quote__line {
+  width: 30%;
+  border:0;
+  border-radius: 1.5rem;
+  height: 1rem;
+  background:#333;
+  margin: 0 auto;
+}
+
 .long-quote {
   font-size: 3.2rem;
   letter-spacing: -0.05em;
@@ -67,8 +76,6 @@ body {
   font-style: italic;
   letter-spacing: -0.151em;
   text-transform: uppercase;
-  background-color: #bdd4e7;
-  background-image: linear-gradient(to bottom, #f1f1f1 0%, #dbe2ef 100%);
 }
 
 .button-container {
