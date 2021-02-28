@@ -20,20 +20,20 @@ function hideLoadingSpinner() {
 // Get Quote from API
 async function getQuote() {
   showLoadingSpinner();
-  const URL = 'http://quotes.stormconsultancy.co.uk/random.json';
+  const URL = 'https://api.quotable.io/random';
   try {
     const res = await fetch(URL);
     const data = await res.json();
-
+    console.log(data)
     // If quote is too long, reduce font size
-    if (data.quote.length > 120) {
+    if (data.content.length > 120) {
       quoteText.classList.add('long-quote');
     } else {
       quoteText.classList.remove('long-quote');
     }
 
     quoteAuthor.innerText = data.author;
-    quoteText.innerText = data.quote;
+    quoteText.innerText = data.content;
     hideLoadingSpinner();
   } catch (err) {
     if (errorCount < 10) {
